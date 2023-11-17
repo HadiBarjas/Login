@@ -1,0 +1,157 @@
+*{
+    font-family: Verdana, sans-serif;
+    /* margin: 0px; */
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+}
+body{
+    background-image: url("../img/background-space-2560-x-1440.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box{
+    width: 700px;
+    height: 900px;
+    margin-left: 38%;
+    margin-top: 10%;
+    background: #16161657;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid #fffffff0;
+}
+.login-top{
+    cursor: default;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 80px;
+    color: #e8e8e8;
+}
+
+    /* line-1 */
+
+    .email-box{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 80px;
+}
+.input-email{
+ border: solid 5px #9e9e9e;
+ border-radius: 20px;
+ width: 450px;
+ background: none;
+ padding: 16px;
+ font-size: 25px;
+ color: #f5f5f5;
+ transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.email-label{
+ position: absolute;
+ left: 15px;
+ color: #e8e8e8;
+ pointer-events: none;
+ transform: translateY(1rem);
+ font-size: 25px;
+ transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.input-email:focus, .input-email:valid {
+ outline: none;
+ border: 5px solid #1a73e8;
+}
+
+.input-email:focus ~ .email-label, .input-email:valid ~ .email-label {
+ transform: translateY(-50%) scale(0.8);
+ background-color: #212121;
+ padding: 0 .2em;
+ color: #2196f3;
+}
+
+        /* line-2 */
+
+.password-box{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.input-password{
+ border: solid 5px #9e9e9e;
+ border-radius: 20px;
+ width: 450px;
+ background: none;
+ padding: 16px;
+ font-size: 25px;
+ color: #f5f5f5;
+ transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.password-label{
+ position: absolute;
+ left: 15px;
+ color: #e8e8e8;
+ pointer-events: none;
+ transform: translateY(1rem);
+ transition: 150ms cubic-bezier(0.4,0,0.2,1);
+ font-size: 25px;
+}
+
+.input-password:focus, .input-password:valid {
+ outline: none;
+ border: 5px solid #1a73e8;
+}
+
+.input-password:focus ~ .password-label, .input-password:valid ~ .password-label {
+ transform: translateY(-50%) scale(0.8);
+ background-color: #212121;
+ padding: 0 .2em;
+ color: #2196f3;
+}
+
+    /* line-3 */
+
+    
+.checebox{
+    transform: scale(2);
+    margin-left: 100px;
+}
+.rem{
+    cursor: default;
+    color: #e8e8e8;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.forgot{
+    color: #e8e8e8;
+    display: inline-block;
+    font-size: 25px;
+    width: 250px;
+    text-align: right;
+}
+.submit{
+    cursor: pointer;
+    margin-left: 18%;
+    margin-top: 30px;
+    width: 450px;
+    height: 70px;
+    font-size: 50px;
+    border-radius: 50px;
+} 
+
+    /* line-3 */
+
+.register{
+    color: #e8e8e8;
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 9%;
+}
+.dhaa{
+    display: inline-block;
+    cursor: default;
+}
+.reg{
+    color: white;
+}
